@@ -20,3 +20,5 @@ Install Python dependencies:
 ```
 $ uv sync
 ```
+
+or, alternatively, `pip install -r requirements.txt`.
