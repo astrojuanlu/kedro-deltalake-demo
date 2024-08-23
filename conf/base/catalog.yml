@@ -1,0 +1,7 @@
+eps_bronze:
+  type: kedro_deltalake_demo.datasets.PolarsDeltaDataset
+  filepath: s3://data/bronze_eps
+  credentials: delta_lake
+  storage_options: ${globals:delta_storage_options}
+  save_args:
+    mode: overwrite
